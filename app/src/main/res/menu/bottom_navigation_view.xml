@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/exploreFragment"
+        android:icon="@drawable/ic_outline_search_24"
+        android:title="Explore" />
+    <item
+        android:id="@+id/myShiftsFragment"
+        android:icon="@drawable/ic_baseline_folder_open_24"
+        android:title="Shifts" />
+    <item
+        android:id="@+id/chatFragment"
+        android:icon="@drawable/ic_baseline_chat_bubble_outline_24"
+        android:title="Chat" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        android:title="Profile" />
+
+
+</menu>

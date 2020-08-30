@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Gardener</string>
+    <string name="email">Email: </string>
+    <string name="name">Name: </string>
+
+
+    <string name="dialog_select_photo">SelectPhoto</string>
+    <string name="title_activity_frag_activity">frag_activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+</resources>

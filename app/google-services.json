@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "832624304336",
+    "firebase_url": "https://onlinefood-67a52.firebaseio.com",
+    "project_id": "onlinefood-67a52",
+    "storage_bucket": "onlinefood-67a52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832624304336:android:730f734ad03dfbb6bdfed5",
+        "android_client_info": {
+          "package_name": "com.example.onlinefood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832624304336-dv7le23dvgt0f1eqtp3jef9da60jftkb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.onlinefood",
+            "certificate_hash": "8a45d0e409e461bb8b8b2e7721b4c223506f2ecd"
+          }
+        },
+        {
+          "client_id": "832624304336-b0jou8v3422u1lm0s1bsqanee5lqc588.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZODM9m1ylNSjYR1A8VPtlawJk-0SucUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832624304336-b0jou8v3422u1lm0s1bsqanee5lqc588.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

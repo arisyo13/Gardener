@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1178723384/OnlineFood.iml" filepath="$PROJECT_DIR$/.idea/modules/-1178723384/Gardener.iml" group="Gardener" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="Gardener/app" />
+    </modules>
+  </component>
+</project>

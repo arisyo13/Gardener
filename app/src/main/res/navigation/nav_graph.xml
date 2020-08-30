@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/exploreFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.gardener.Profile.ProfileFragment"
+        android:label="ProfileFragment" >
+        <action
+            android:id="@+id/action_profileFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.example.gardener.Explore.ExploreFragment"
+        android:label="ExploreFragment">
+        <action
+            android:id="@+id/action_searchFragment_to_shiftDetailsFragment"
+            app:destination="@id/shiftDetailsFragment"
+            app:enterAnim="@anim/slide_in_up"
+            app:exitAnim="@anim/slide_out_down"
+            app:popEnterAnim="@anim/slide_in_down"
+            app:popExitAnim="@anim/slide_out_up" />
+        <action
+            android:id="@+id/action_exploreFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.gardener.Chat.ChatFragment"
+        android:label="ChatFragment" />
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.example.gardener.Profile.EditProfileFragment"
+        android:label="EditProfileFragment" >
+        <action
+            android:id="@+id/action_editProfileFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/shiftDetailsFragment"
+        android:name="com.example.gardener.Shifts.ShiftDetailsFragment"
+        android:label="ShiftDetailsFragment" />
+    <fragment
+        android:id="@+id/postShiftsFragment"
+        android:name="com.example.gardener.Shifts.PostShiftsFragment"
+        android:label="PostShiftsFragment" />
+    <fragment
+        android:id="@+id/pastShiftsFragment"
+        android:name="com.example.gardener.Shifts.FutureShiftsFragment"
+        android:label="PastShiftsFragment" />
+
+
+    <fragment
+        android:id="@+id/myShiftsFragment"
+        android:name="com.example.gardener.Shifts.myShiftsFragment"
+        android:label="myShiftsFragment" >
+        <action
+            android:id="@+id/action_myShiftsFragment_to_postShiftsFragment"
+            app:destination="@id/postShiftsFragment" />
+        <action
+            android:id="@+id/action_myShiftsFragment_to_shiftDetailsFragment"
+            app:destination="@id/shiftDetailsFragment"
+            app:enterAnim="@anim/slide_in_up"
+            app:exitAnim="@anim/slide_out_down"
+            app:popEnterAnim="@anim/slide_in_down"
+            app:popExitAnim="@anim/slide_out_up"/>
+    </fragment>
+</navigation>
